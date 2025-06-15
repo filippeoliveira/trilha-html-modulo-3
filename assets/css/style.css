@@ -1,15 +1,15 @@
 body, html {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+a { color:rgb(242, 242, 247); text-decoration: none;}
 .bar {
-    background-color: #f9f9fb;
+    background-color: #0c0c0c;
     padding:15px;
-    border-top: solid 1px #cdcdcd;
-    border-bottom: solid 1px #cdcdcd;
+    border-top: solid 1px #f8f3f3;
+    border-bottom: solid 1px #black;
 }
 .content {
     max-width: 1440px;
@@ -24,15 +24,85 @@ a { color:blue; text-decoration: none;}
 }
 .footer {
     min-height: 100px;
-    border-top: solid 1px #cdcdcd;
+    border-top: solid 1px #252525;
 }
 .anchors {
-    border-left: solid 1px #cdcdcd;
+    position: sticky;
+    top: 0;
+    width: 200px;
+    height: 1000px;
+    background-color: rgb(96, 172, 232);
+    color: white;
+    border-right: solid 1px #252525;
+    width: 250px;
+    border-left: solid 1px #252525;
     padding-left: 15px;
+    text-align: left;
+    background-image: url(../images/right.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: #000000 5px 5px 15px;
+    -webkit-text-stroke: #000000 0.1px;
+    
 }
 .sidebar {
-    border-right: solid 1px #cdcdcd;
-}
-figure {
+    position: sticky;
+    top: 0;
+    width: 200px;
+    height: 1000px;
+    background-color: rgb(96, 172, 232);
+    color: white;
+    width: 250px;
+    border-left: solid 1px #252525;
+    border-right: solid 1px #252525;
     text-align: center;
+    background-image: url(../images/left.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-top: solid 1px #252525;
+    padding: 10px;
+    text-shadow: #000000 5px 5px 15px;
+    font-size: 22px;
+    -webkit-text-stroke: #000000 0.1px;
+    
+    
+   }
+
+.main {
+    text-align:center;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;    ;
+    text-shadow: #000000 5px 5px 15px;
+    font-size: 15px;
+     -webkit-text-stroke: #000000 0.7px;
 }
+
+ .logo{
+    background-color:black;
+ }
+
+ .title {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #ec0505;
+    text-align: center;
+    font-family: 'zapfinitialstdheavy';
+ }
+.content{
+    background-color:black
+}
+ body{
+    background-color: black;
+ }
+ .bar{
+    position: -webkit-sticky;
+    bottom: 5;
+ }
+
+
+
+
+
