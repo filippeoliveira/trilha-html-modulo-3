@@ -38,7 +38,7 @@ a { color:rgb(242, 242, 247); text-decoration: none;}
     border-left: solid 1px #252525;
     padding-left: 15px;
     text-align: left;
-    background-image: url(../images/right.jpg);
+    background-image: url(https://github.com/filippeoliveira/trilha-html-modulo-3/tree/main/assets/images/right.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: #000000 5px 5px 15px;
@@ -56,7 +56,7 @@ a { color:rgb(242, 242, 247); text-decoration: none;}
     border-left: solid 1px #252525;
     border-right: solid 1px #252525;
     text-align: center;
-    background-image: url(../images/left.jpg);
+    background-image: url(https://github.com/filippeoliveira/trilha-html-modulo-3/tree/main/assets/images/left.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -71,7 +71,7 @@ a { color:rgb(242, 242, 247); text-decoration: none;}
 
 .main {
     text-align:center;
-    background-image: url(../images/bg.jpg);
+    background-image: url(https://github.com/filippeoliveira/trilha-html-modulo-3/tree/main/assets/images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: black;    ;
