@@ -38,7 +38,7 @@ a { color:rgb(242, 242, 247); text-decoration: none;}
     border-left: solid 1px #252525;
     padding-left: 15px;
     text-align: left;
-    background-image: url(./assets/images/right.jpg);
+    background-image: url("assets/images/right.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: #000000 5px 5px 15px;
@@ -74,7 +74,7 @@ a { color:rgb(242, 242, 247); text-decoration: none;}
     background-image: url("assets/images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: black;    ;
+    color: black;  
     text-shadow: #000000 5px 5px 15px;
     font-size: 15px;
      -webkit-text-stroke: #000000 0.7px;
